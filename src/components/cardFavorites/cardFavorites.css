@@ -1,0 +1,15 @@
+.result-book-list {
+	margin: 0 0 18px 30px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.book-result {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	padding: 30px;
+	place-items: center;
+	gap: 25px;
+}

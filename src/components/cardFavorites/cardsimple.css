@@ -1,0 +1,104 @@
+.book-card {
+	width: 288px;
+	height: 288px;
+	border-radius: 8px;
+	background: #121212;
+	color: white;
+}
+
+.place-img {
+	border-radius: 8px 8px 0 0;
+	background: #B8B8B8;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+footer {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: auto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 30px;
+
+}
+
+footer a {
+	display: flex;
+	align-items: center;
+}
+
+footer img {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.leftarrow {
+	margin-left: 30px;
+}
+
+.rightarrow {
+	margin-right: 30px;
+}
+
+.textbook-side {
+	padding: 10px;
+}
+
+.ganr {
+	color: #DEDEDE;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.namebook {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.authorbook {
+	margin-top: 8px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.book-bottom-side {
+	position: relative;
+	height: 148px;
+}
+
+.btn-bookcard {
+	background: none;
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	padding: 6px 8px;
+	width: 36px;
+	height: 32px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 12px;
+	left: 10px;
+}
+
+.imgposter {
+	width: 91px;
+	height: 141px;
+	margin-top: 11px;
+}
+
+.btn-active {
+	background: #FFFFFF;
+}
