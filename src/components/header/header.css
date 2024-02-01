@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.logomain {
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.righside {
+	display: flex;
+	align-items: center;
+	gap: 27px;
+	margin-right: 50px;
+}
+
+.search-block {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.search-block img {
+	margin-right: 10px;
+}
+
+.favorites {
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.favorites img {
+	margin-right: 10px;
+}
+
+.fav-sum {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	border: 1px solid #121212;
+	font-size: 14px;
+	padding: 4px;
+	margin-left: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
